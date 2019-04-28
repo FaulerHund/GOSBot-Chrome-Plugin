@@ -1,0 +1,30 @@
+{
+  "name": "GOSBot Plugin",
+  "version": "1.0",
+  "description": "YouTube Inhalte im GOSBot abspielen",
+  "permissions": ["activeTab", "declarativeContent", "storage", "tabs", "<all_urls>"],
+  "content_scripts": [
+    {
+    "matches": [
+        "http://*/*",
+        "https://*/*"
+        ],
+    "js": ["js/bootstrap.min.js", "js/jquery-2.0.3.min.js"],
+    "css": ["css/bootstrap.min.css", "css/custom.css", "css/fontawesome.css"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "manifest_version": 2
+}

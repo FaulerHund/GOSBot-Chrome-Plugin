@@ -1,0 +1,52 @@
+<html>
+	<head>
+	    <meta charset="utf-8">
+		
+		<title>GOSBot Plugin</title>
+		
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="popup.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	</head>
+	
+	<body>
+	
+      <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="https://gosbot.de" target="_blank">
+            <img src="icon.png" width="50" height="50" alt="">GOSBot
+          </a>
+          <a class="navbar-brand" href="javascript:void(0);" id="btn_play">Abspielen</a>
+          <a class="navbar-brand" href="javascript:void(0);" id="btn_import">Importieren</a>
+        </nav>
+        
+		
+		<section id="section_main">
+      <div id="alert">
+      </div>
+      <table width="100%">
+          <tr>
+              <th><img id="player_songcover" src="https://gosbot.de/images/cdcover.png" height="80" width="80" alt=""></th>
+              <th></th>
+              <th align="center">
+              <div class="align-center">
+                  <i id="btn_mpause" title="Wiedergabe beenden" class="fas fa-pause-circle fa-3x"></i>
+                  <i id="btn_mplay" title="Wiedergabe fortsetzen" class="fas fa-play-circle fa-3x"></i>
+                  <i id="btn_mstop" title="Wiedergabe stoppen" class="fas fa-stop-circle fa-3x"></i>
+              </div>                                         
+              </th>
+          </tr>
+      </table>
+      <marquee id="songtitle">Title wird geladen</marquee>
+
+      <center>
+        <small>Freue dich bald auf neue kommende Funktionen!</small>
+      </center>
+    </section>
+		
+	</body>
+</html>
