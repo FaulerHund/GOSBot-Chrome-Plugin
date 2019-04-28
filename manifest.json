@@ -3,16 +3,6 @@
   "version": "1.0",
   "description": "YouTube Inhalte im GOSBot abspielen",
   "permissions": ["activeTab", "declarativeContent", "storage", "tabs", "<all_urls>"],
-  "content_scripts": [
-    {
-    "matches": [
-        "http://*/*",
-        "https://*/*"
-        ],
-    "js": ["js_bootstrap.min.js", "js_jquery-2.0.3.min.js"],
-    "css": ["css_bootstrap.min.css", "css_custom.css", "css_fontawesome.css"]
-    }
-  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
