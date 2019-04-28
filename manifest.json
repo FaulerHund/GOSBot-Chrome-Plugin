@@ -9,8 +9,8 @@
         "http://*/*",
         "https://*/*"
         ],
-    "js": ["js/bootstrap.min.js", "js/jquery-2.0.3.min.js"],
-    "css": ["css/bootstrap.min.css", "css/custom.css", "css/fontawesome.css"]
+    "js": ["js_bootstrap.min.js", "js_jquery-2.0.3.min.js"],
+    "css": ["css_bootstrap.min.css", "css_custom.css", "css_fontawesome.css"]
     }
   ],
   "background": {
